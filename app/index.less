@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.board {
+  height: 300px;
+  width: 312px;
+}
+.cell {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background: #ddd;
+  margin-left: 4px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 3em;
+  overflow: hidden;
+  transition: background 0.4s;
+}
+.winningCell {
+  background: green;
+}

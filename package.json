@@ -1,0 +1,32 @@
+{
+  "name": "react-techday-tictactoe",
+  "version": "0.0.0",
+  "description": "react-techday-tictactoe =======================",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --port 8089 --no-info --content-base app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mitchelkuijpers/react-techday-tictactoe.git"
+  },
+  "author": "M.Kuijpers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitchelkuijpers/react-techday-tictactoe/issues"
+  },
+  "homepage": "https://github.com/mitchelkuijpers/react-techday-tictactoe",
+  "devDependencies": {
+    "json-loader": "^0.5.1",
+    "react": "^0.10.0",
+    "less-loader": "^0.7.4",
+    "envify": "^1.2.1",
+    "jsx-loader": "^0.10.2",
+    "css-loader": "^0.6.12",
+    "less": "^1.7.0",
+    "webpack": "^1.2.0-beta2",
+    "webpack-dev-server": "^1.2.7",
+    "lodash": "^2.4.1",
+    "style-loader": "^0.6.3"
+  }
+}
